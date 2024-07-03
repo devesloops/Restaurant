@@ -99,17 +99,11 @@ p, h1, h2, h3 {
 
 
 .hero-item.hero-style-one.hero-image {
-    background-image: url("/Images/Image-Hero1.jpg");
+    background-image: url("/Images/Image-Hero.avif");
     background-position: 50% 50%;
     background-size: cover;
 }
 
-.tajine{
-	position: absolute;
-	width: 50%;
-	top: 12%;
-	left: 72.5%;
-}
 
 .hero-item {
 	background-position: 60% 40%;
