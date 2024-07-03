@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: fit-content;
+	background-color: #061319;
 }
 header {
 	color: #fff;
@@ -24,6 +25,10 @@ a,
 a:visited {
 	color: #fff;
 	text-decoration: none;
+}
+
+p, h1, h2, h3 {
+	color: white;
 }
 
 .main {
@@ -69,6 +74,10 @@ a:visited {
 	height: 350px;
 }
 
+.menu-item p {
+	color: black;
+}
+
 .menu-image {
 	margin-top: 15px;
 	border-radius: 10px;
@@ -110,8 +119,9 @@ a:visited {
 
 .hero-block {
     position: relative;
+	top: 110px;
     display: flex;
-    min-height: 950px;
+    min-height: 750px;
     align-items: center;
 	justify-content: left;
 }
