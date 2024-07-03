@@ -45,6 +45,7 @@ p, h1, h2, h3 {
 }
 .bold-on-hover:hover {
 	font-weight: 600;
+	color: #ff8700;
 }
 
 .header-container {
