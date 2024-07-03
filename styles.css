@@ -154,17 +154,14 @@ p, h1, h2, h3 {
 }
 
 .button-default {
-    background-color: var(--primary-1);
-    box-shadow: 0 6px 16px 0 var(--primary-button-shadow);
-    color: var(--neutral-100);
-    text-align: center;
-    transform-style: preserve-3d;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 80px;
-    padding: 20px 40px;
-    font-weight: 700;
-    line-height: 1.2em;
-    transition: transform .3s, box-shadow .3s, background-color .3s;
+    padding: 15px 39px 15px 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: transparent;
+    transition: transform 300ms ease, background-color 300ms ease;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
 .button-default:hover {
