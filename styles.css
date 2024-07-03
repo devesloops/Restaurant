@@ -1,27 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&display=optional");
 
-/* html {
-	height: 100%;
-} */
-
 body {
 	font-family: "Lexend Deca", sans-serif;
 	margin: 0;
 	padding: 0;
-	color:black;	
 	height: fit-content;
-	background-color: #eaebed;
-}
-/* .stroke {
-	-webkit-text-stroke: 1px #d0d0cf7c;
-	paint-order: stroke fill;
-} */
-
-main {
-	margin: 20px;
 }
 header {
-	background-color: #ffac4d;
 	color: #fff;
 	padding: 10px 0;
 	text-align: center;
@@ -41,17 +26,6 @@ a:visited {
 	text-decoration: none;
 }
 
-.bg-image {
-	background-image: url(/Images/background.jpeg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	filter: blur(8px);
-	-webkit-filter: blur(8px);
-	height: 100vh;
-	margin: 0%;
-	padding: 0%;
-}
 .main {
 	position: absolute;
 	top: 0%;
@@ -96,4 +70,73 @@ a:visited {
 .title-div {
 	padding: 70px 0;
 	height: 100vh;
+}
+
+
+.hero-item.hero-style-one.hero-image {
+    background-image: url("/Images/Image-Hero.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-item {
+	background-position: 50% 50%;
+}
+.hero-item.hero-style-one.hero-image {
+	background-position: 50% 50%;
+}
+
+.w-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 940px;
+}
+
+.hero-block {
+    position: relative;
+    display: flex;
+    min-height: 950px;
+    align-items: center;
+}
+
+.hero-content {
+	width: 100%;
+	max-width: 585px;
+}
+
+.special-heading {
+    margin-top: 0px;
+    font-size: 70px;
+    line-height: 1.2;
+	color: #ffffff;
+}
+
+.hero-description {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 0.9;
+    letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+.hero-description-inner-text {
+    color: #ff8700;
+}
+
+.button-default {
+    padding: 15px 39px 15px 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: transparent;
+    transition: transform 300ms ease, background-color 300ms ease;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.button-default:hover {
+    border-color: #ff8700;
+    background-color: #ff8700;
+    transform: translate(0px, -3px);
 }
