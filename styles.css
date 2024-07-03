@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: fit-content;
-	background-color: #061319;
+	background-image: url("/Images/Image-Background-Body.avif");
 }
 header {
 	color: #fff;
