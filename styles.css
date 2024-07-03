@@ -42,7 +42,7 @@ a:visited {
 }
 
 .bg-image {
-	background-image: url(background.jpeg);
+	background-image: url(/Images/background.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
