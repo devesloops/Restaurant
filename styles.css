@@ -77,7 +77,6 @@ a:visited {
     background-image: url("/Images/Image-Hero.jpg");
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .hero-item {
