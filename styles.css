@@ -60,7 +60,7 @@ p, h1, h2, h3 {
 	color: #ff8700;
 }
 
-.bold-on-hover.w--current {
+#About {
 	transition: box-shadow 350ms ease, transform 350ms ease;
 }
 
