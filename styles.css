@@ -60,6 +60,10 @@ p, h1, h2, h3 {
 	color: #ff8700;
 }
 
+.bold-on-hover.w--current {
+	transition: box-shadow 350ms ease, transform 350ms ease;
+}
+
 .header-container {
 	display: flex;
 	flex-wrap: wrap;
